@@ -5,7 +5,7 @@ from . import views
 urlpatterns = [
 
 
-    path('index/', views.dl_index),
+    path('index/', views.dl_index, name='deep-learning'),
 
 
 ]
