@@ -6,6 +6,7 @@ urlpatterns = [
 
 
     path('index/', views.about_index, name='about'),
+    path('forms/', views.dynamicForm, name='forms'),
 
 
 ]
